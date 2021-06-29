@@ -1,0 +1,37 @@
+### REGISTER ###
+
+URL : https://photography-application.herokuapp.com/register
+
+Method : POST
+
+Credentials Required : 1) email - str
+                       2) password - str
+                       3) mobile - int
+
+--> After Successful registration OTP will be sent to email entered by user or it will give error message.
+--> All fields are required otherwise it will give error message.
+
+
+### Verify Email OTP ###
+
+URL : https://photography-application.herokuapp.com/verify-otp
+
+Method : POST
+
+Credentials Required : 1) email - str
+                       2) OTP - int
+
+--> After Successful verification success message is displayed or it will give error message.
+--> All fields are required otherwise it will give error message.
+
+
+### Resend Email OTP ###
+
+URL : https://photography-application.herokuapp.com/verify-otp
+
+Method : PATCH
+
+Credentials Required : 1) email - str
+
+--> After Successful verification success message is displayed or it will give error message.
+--> All fields are required otherwise it will give error message.

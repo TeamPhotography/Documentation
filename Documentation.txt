@@ -19,7 +19,7 @@ URL : https://photography-application.herokuapp.com/verify-otp
 Method : POST
 
 Credentials Required : 1) email - str
-                       2) OTP - int
+                       2) otp - int
 
 --> After Successful verification success message is displayed or it will give error message.
 --> OTP will be valid for only 5 min.

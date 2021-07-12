@@ -12,7 +12,7 @@ Credentials Required : 1) email - str
 --> All fields are required otherwise it will give error message.
 
 
-### Verify Email OTP ###
+### Verify OTP ###
 
 URL : https://photography-application.herokuapp.com/verify-otp
 
@@ -26,13 +26,14 @@ Credentials Required : 1) email - str
 --> All fields are required otherwise it will give error message.
 
 
-### Resend Email OTP ###
+### Resend OTP ###
 
 URL : https://photography-application.herokuapp.com/verify-otp
 
 Method : PATCH
 
 Credentials Required : 1) email - str
+                       2) mobile - str
 
 --> After Successful verification success message will be displayed or it will give error message.
 --> OTP will resent after 2 min.
